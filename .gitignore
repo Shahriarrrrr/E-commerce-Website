@@ -1,0 +1,13 @@
+# Django-specific
+db.sqlite3            # Ignore the database file
+media/                # Ignore user-uploaded files in media folder
+
+# Virtual environment
+venv/                 # Ignore the virtual environment folder
+
+# Python-specific
+*.pyc                 # Ignore compiled Python files
+__pycache__/          # Ignore Python cache folders
+
+# Environment variables
+.env                  # Ignore .env files with sensitive data
